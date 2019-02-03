@@ -15,13 +15,13 @@ User must sign in to check out
     Sleep  3s
     Click Button    xpath=//*[@id="nav-search"]/form/div[2]/div/input
     wait until page contains    results for "Ferrari 458"
-    SLEEP  5
+    SLEEP  5s
     Close Browser
 
     open browser    https://www.amazon.com  chrome
-    sleep  3
+    sleep  3s
     input text      id=twotabsearchtextbox  Reebok leather
-    sleep  3
+    sleep  3s
     click button    xpath=//*[@id="nav-search"]/form/div[2]/div/input
     wait until page contains    results for "Reebok leather"
     sleep   7
