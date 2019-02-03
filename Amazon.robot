@@ -24,7 +24,7 @@ User must sign in to check out
     sleep  3
     click button    xpath=//*[@id="nav-search"]/form/div[2]/div/input
     wait until page contains    results for "Reebok leather"
-    sleep   3
+    sleep   7
     close browser
 *** Keywords ***
 
